@@ -7,8 +7,7 @@ import Footer from '../Footer';
 function Home() {
   return (
        <div className="bg-color">
-      <img className="round-img" src="/images/tworoundimg.png"></img>
-    
+        {/* <h1 className='text-left'>dcsfsddfdfdfd</h1> */}
       <RoundImgSec />
       <Cards />
       <Footer />
