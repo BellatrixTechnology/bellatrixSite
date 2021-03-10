@@ -7,11 +7,15 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.6.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-smart-card": "^0.4.0",
+    "reactstrap": "^8.9.0",
     "shards-react": "^1.0.3"
   },
   "scripts": {

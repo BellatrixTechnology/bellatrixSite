@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import './index.css';
-import About from './components/pages/About';
+import About from '../src/components/About';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Service from './components/pages/Service';
-import Portfolio from './components/pages/Portfolio';
-import Testimonial from './components/pages/Testimonial';
+import Service from '../src/components/Service';
+import Portfolio from '../src/components/Portfolio';
+import Testimonial from '../src/components/Testimonial';
 
 function App() {
   return (

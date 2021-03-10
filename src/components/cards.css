@@ -1,0 +1,28 @@
+.group-Img {
+    margin-left: 30px;
+    height: 500px;
+    width: 550px;
+    margin-top: -360px;
+  }
+
+.progress-line{
+    border: 0.5px solid #ff5367;
+    border-radius: 10px;
+  margin-right: 390px;
+  margin-left: 580px;
+    margin-top: -430px;
+}
+  .group-cards-content{
+    color:black;
+     height: 500px;
+     margin-left: 100px;
+     margin-top: -430px;
+     margin-bottom: 0px;
+   }
+   .groupcards-paraghaf-tag{
+    color:gray;
+    margin-left: 620px;
+    margin-right: 90px;
+    margin-top: -0px;
+    margin-bottom: 0px; 
+  }

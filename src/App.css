@@ -1,4 +1,4 @@
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@
   background-color: #ff5367 !important;
 }
 
-.round-img{
+/* .round-img{
 width:400px;
 margin-left: 700px;
 margin-top: 100px;
