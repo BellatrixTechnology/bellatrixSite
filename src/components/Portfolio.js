@@ -9,10 +9,10 @@ export default function Products() {
     <div className="portfolio-color ">
       <div>
         <h1 className="portfolio-setting">Food Apps</h1>
-        <p style={{ fontStyle: "normal", color: "gray" ,marginLeft:"40px"}}>
+        <p style={{ fontFamily:"fantasy", color: "gray" ,marginLeft:"40px"}}>
           Foods App merupakan project desain berbasis mobile yang dikembangkan
         </p>
-        <p style={{ fontStyle: "normal", color: "gray" ,marginLeft:"40px"}} >oleh tim insight. Desain dibuat berdasarkan kebutuhan dari klien.</p>
+        <p style={{ fontFamily:"fantasy", color: "gray" ,marginLeft:"40px"}} >oleh tim insight. Desain dibuat berdasarkan kebutuhan dari klien.</p>
       </div>
       <br />
           <div className="mb-2">
@@ -28,7 +28,7 @@ export default function Products() {
         {/* <img className="edu-img" src="/images/eduimg.png"></img> */}
         <div>
           <h1 className="template-setting" >Education Template</h1>
-          <p style={{ fontStyle: "normal", color: "gray" }}>
+          <p style={{ fontFamily:"fantasy", color: "gray" }}>
             Template ini merupakan project tentang edukasi yang diminta oleh
             klien kami. template ini ditujukan kepada anak - anak usia maksimal
             12 tahun

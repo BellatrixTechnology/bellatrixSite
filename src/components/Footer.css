@@ -1,0 +1,48 @@
+.footer-color{
+   
+    border: 200px solid #ff5367;
+              border-radius: 20px;
+              margin-right: 0px;
+              margin-left: 60px;
+              margin-top:220px;
+            
+
+  }
+  
+  .footer-text{
+    color:white;
+    margin-left: 320px;
+    margin-right: 90px;
+    margin-top: -320px;
+    margin-bottom: 0px;   
+  }
+  .border-footer{
+   width:400px;
+    border: 20px solid white;
+    border-radius: 30px;
+    margin-right: 0px;
+    margin-left: 330px;
+    margin-top:10px;
+
+
+  }
+  .line-styling{
+    border: 0.5px solid #E6E6E6;
+    margin-top:20px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .insight-styling{
+      color: white;
+      margin-left: 180px;
+  }
+  .p-styling{
+      color: white;
+      margin-left: 180px;
+      font-family:fantasy;
+  }
+  .header-arrow{
+      height:50px;
+      margin-right: 50px;
+  }

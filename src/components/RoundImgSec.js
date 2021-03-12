@@ -1,11 +1,13 @@
 import React from "react";
-import "../index.css";
 import { Button } from "reactstrap";
 import "./RoundImgSec.css";
 function RoundImgSec() {
   return (
     <div>
+     
       <img className="round-img" src="/images/tworoundimg.png"></img>
+      {/* <img className="icon-1"src="/images/icon1.png"></img> */}
+
       <h1 className='roundimg-content'>
       Bangun ide-ide kreatif Anda
       </h1>
@@ -21,7 +23,6 @@ anda memaksimalkan bisnis anda.</p>
           <div className="mb-2">
           <Button className="about-two" color="danger">Tentang Kami</Button>{' '}
           </div>
-          
     </div>
   );
 }

@@ -5,3 +5,24 @@ margin-bottom: 40px;
 margin-right: 60rem;
 
 }
+.round-img {
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 100px;
+  }
+.icon-1{
+    margin-left: 50px;
+}
+.icon-2{
+    margin-top: 90px;
+
+}
+.paraghaf-tag{
+  color:white;
+  height: 800px;
+  margin-left: 70px;
+  margin-top: -610px;
+  margin-bottom: 0px; 
+  font-family:fantasy
+
+}
