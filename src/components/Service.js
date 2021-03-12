@@ -63,7 +63,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#ff5367"}}>Design</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontStyle:"normal" }}>
+                <p style={{ color: "#A29E9F",fontFamily:"fantasy"}}>
                 Kami menyediakan beberapa jenis deisgnsepeti feed instagram,
                 UIUX, dsb.
               </p>
@@ -80,7 +80,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#E6B921"}}>Development</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontStyle:"normal" }}>
+                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
                 Bangun webiste atau aplikasi untuk menunjang bisnis anda bersama kami
               </p>
               </CardBody>
@@ -96,7 +96,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#000"}}>Branding</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontStyle:"normal" }}>
+                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
                 Kami akan membantu anda dalam mengelola branding bisnis anda.
               </p>
               </CardBody>
@@ -112,7 +112,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#ff5367"}}>Photography</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontStyle:"normal" }}>
+                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
                 Jika anda memiliki produk fisik, kami akan membantu membuat foto terbaik untuk produk anda
               </p>
               </CardBody>
