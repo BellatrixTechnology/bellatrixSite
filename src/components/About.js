@@ -4,6 +4,7 @@ import Cards from '../components/Cards';
 import RoundImgSec from '../components/RoundImgSec';
 import Footer from '../components/Footer';
 import Testimonials from "../components/Testimonial"
+import "bootstrap/dist/css/bootstrap.css";
 function Home() {
   return (
        <div className="bg-color">

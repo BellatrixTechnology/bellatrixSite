@@ -17,6 +17,8 @@
 // }
 
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+
 import { Container, Row, Col, Card, CardBody, CardImg ,CardTitle} from "shards-react";
 import "../components/Service.css";
 

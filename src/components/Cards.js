@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../components/cards.css";
+import "bootstrap/dist/css/bootstrap.css";
+
 import CardItem from "../CardItem";
 class 
 GroupImag extends Component {

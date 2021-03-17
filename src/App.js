@@ -10,6 +10,7 @@ import Testimonial from '../src/components/Testimonial';
 
 function App() {
   return (
+
     <>
       <Router>
         <Navbar />

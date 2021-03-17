@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "reactstrap";
 import "./RoundImgSec.css";
+import "bootstrap/dist/css/bootstrap.css";
+
 function RoundImgSec() {
   return (
     <div>

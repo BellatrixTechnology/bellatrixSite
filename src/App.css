@@ -9,6 +9,9 @@
 .bg-color{
   background-color: #ff5367 !important;
 }
+@media screen and (max-width: 768px) {
+  
+}
 
 /* .round-img{
 width:400px;

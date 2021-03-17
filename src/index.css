@@ -6,11 +6,7 @@
 }
 
 
-.round-img {
-  width: 400px;
-  margin-left: 700px;
-  margin-top: 100px;
-}
+
 .cards {
   padding: 4rem;
   background: #fff;
@@ -129,6 +125,12 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
 
 
 .card-setting{
@@ -193,3 +195,111 @@ h1 {
 .width-100{
   width:100%;
 }
+/* @media screen and (min-width: 415px){
+  .site-container {
+    flex-direction: row;
+  }
+  @media screen and (max-width: 768px) {
+  } */
+  @media only screen and (min-width: 1024px) {
+  }
+  @media(max-width: 991px){
+    #header{
+      height:80vh;
+      text-align:center;
+    }
+    #header .heading-img{
+      text-align: center;
+    }
+    #header .header-img{
+      width: 60%;
+    }
+
+  }
+@media (max-width:768px){
+  #header{
+    margin-top: 20px;
+  }
+  #header h1{
+    font-size:28px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header.header-img img{
+    width:70px
+  }
+  @media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container  {
+      display:flex;
+    }
+    
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+  }
+  @media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+  @media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+}
+/* @media screen and (max-width: 700px) {
+  .navbar {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 92px;
+  }
+} */

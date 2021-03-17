@@ -4,6 +4,7 @@ import { TweenLite, Power3 } from "gsap";
 import leftArrow from "../../src/assets/arrow-left.svg";
 import rightArrow from ".././assets/arrow-right.svg";
 import "../Testimonial.scss"
+import "bootstrap/dist/css/bootstrap.css";
 
 const testimonials = [
     {
