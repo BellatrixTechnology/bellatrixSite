@@ -26,5 +26,35 @@ margin-right: 60rem;
   font-family:fantasy
 
 }
+ .roundimg-content {
+  color: white;
+  height: 700px;
+  display: flex;
+  margin-top: -310px;
+  margin-left: 70px;
+  align-items: flex-start;
+  margin-bottom: 0px;
+} 
 @media screen and (max-width: 768px) {
+  .mb-2{
+    flex-direction: column;
+  }
+  .about-two{
+    width: 100%;
+  }
+ 
 }
+
+ .about-button{
+  height: 70px;
+  width:160px;
+  margin-left: 70px;
+  margin-top: -1260px;
+  color: #2F6BA0;
+}
+ .about-two{
+  height: 70px;
+  width:160px;
+  margin-left: 270px;
+  margin-top: -1320px;
+} 

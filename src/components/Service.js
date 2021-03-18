@@ -1,20 +1,4 @@
-// import React from 'react';
-// // import '../../App.css';
-// import '../../index.css'
-// import CardItem from '../CardItem';
 
-// export default function Services() {
-//   return (
-//     <div class="text-center text-xl-left" >
-//    <h1 class="sans-bold color__black wow slideInLeft" data-wow-delay="0.1s">Jenis Layanan</h1>
-//    <div className='cards'>
-//       <h1>Check out these EPIC Destinations!</h1>
-
-//     </div>
-//  </ div>
-
-// );
-// }
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
@@ -33,26 +17,7 @@ export default function CardBodyExample() {
               marginRight: "860px",
               marginLeft: "0px",
             }}></p>
-{/* 
-      <Row>
-        <Col>
-          <Card className="card-1"
-            style={{
-             
-            }}
-          >
-            <CardImg style={{height:"15%",width:"20%",marginLeft:"20px"}}  src="/images/Groupdot.png" />
-            <CardBody>
-              <p style={{ color: "#ff5367", fontSize: "25px",marginLeft:"0px" }}>Design</p>
-              <br />
-              <p style={{ color: "#A29E9F",fontStyle:"normal",marginLeft:"20px" }}>
-                Kami menyediakan beberapa jenis deisgnsepeti feed instagram,
-                UIUX, dsb.
-              </p>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row> */}
+
 
       <Row>
           <Col>
