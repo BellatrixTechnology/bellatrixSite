@@ -3,7 +3,7 @@
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
-   "sizes": "36x36",
+   "sizes": "50x50",
    "type": "image\/png",
    "density": "0.75"
   },

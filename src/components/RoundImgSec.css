@@ -17,6 +17,19 @@ margin-right: 60rem;
     margin-top: 90px;
 
 }
+.about-button{
+  height: 70px;
+  width:170px;
+  margin-left: 350px;
+  margin-top: -1260px;
+  color: #2F6BA0;
+}
+ .about-two{
+  height: 70px;
+  width:160px;
+  margin-left: 170px;
+  margin-top: -1320px;
+} 
 .paraghaf-tag{
   color:white;
   height: 800px;
@@ -35,26 +48,42 @@ margin-right: 60rem;
   align-items: flex-start;
   margin-bottom: 0px;
 } 
+
 @media screen and (max-width: 768px) {
-  .mb-2{
-    flex-direction: column;
+  
+  .roundimg-content{
+    display: flex;
+    font-size: 25px;
+    margin-left: 80px;
+
   }
-  .about-two{
-    width: 100%;
+.about-button{
+  width:110px;
+  height: 70px;
+  margin-left: 240px;
+}
+.about-two{
+  width: 110px;
+  height: 70px;
+  margin-left: 70px;
+}
+}
+@media screen and (max-width: 960px) {
+  .roundimg-content{
+    display: flex;
+    font-size: 25px;
+    margin-left: 60px;
+
   }
+.about-button{
+  width:110px;
+  height: 70px;
+  margin-left: 240px;
+}
+.about-two{
+  width: 110px;
+  height: 70px;
+  margin-left: 70px;
+}
  
 }
-
- .about-button{
-  height: 70px;
-  width:160px;
-  margin-left: 70px;
-  margin-top: -1260px;
-  color: #2F6BA0;
-}
- .about-two{
-  height: 70px;
-  width:160px;
-  margin-left: 270px;
-  margin-top: -1320px;
-} 

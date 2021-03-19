@@ -30,8 +30,7 @@ export default function Products() {
           <h1 className="template-setting" >Education Template</h1>
           <p style={{ fontFamily:"fantasy", color: "gray" }}>
             Template ini merupakan project tentang edukasi yang diminta oleh
-            klien kami. template ini ditujukan kepada anak - anak usia maksimal
-            12 tahun
+            klien kami. 
           </p>
           <br />
           <div className="mb-2">

@@ -32,22 +32,23 @@ function Footer() {
               ></img></span>
       <h3 className="insight-styling">
         Insight{" "}  
-        <span style={{ marginLeft: "240px", fontSize: "18px" }}> About Us</span>{" "}
-        <span style={{ marginLeft: "100px", fontSize: "18px" }}>
+        <span className="about-us" > About Us</span>{" "}
+        <span className="contact-us"  >
           Contact Us
         </span>
-        <span style={{ marginLeft: "100px", fontSize: "18px" }}>Follow Us</span>{" "}
+        <span  className="follow-us" >Follow Us</span>{" "}
       </h3>
 
       <p className="p-styling">
         Build your creative ideas into{" "}
-        <span style={{ marginLeft: "124px", fontFamily: "fantasy" }}>
+        <span  className="p-styling-2" style={{ marginLeft: "124px", fontFamily: "fantasy" }}>
           Our Project Meet{" "}
-          <span style={{ marginLeft: "74px", fontFamily: "fantasy" }}>
+          <span className="p-styling-3" style={{ marginLeft: "74px", fontFamily: "fantasy" }}>
             Hello@insight.id{" "}
             <span>
               {" "}
               <img
+              className="image-1"
                 style={{ marginLeft: "60px", height: "35px" }}
                 src="/images/icon1.png"
               ></img>
@@ -76,7 +77,7 @@ function Footer() {
           </span>
         </span>
       </p>
-      <p style={{ color: "white", marginLeft: "180px", fontFamily: "fantasy" }}>
+      <p  className="reality-with" style={{ color: "white", marginLeft: "180px", fontFamily: "fantasy" }}>
         reality with us{" "}
         <span style={{ marginLeft: "220px", fontFamily: "fantasy" }}>
           the team Storeas
