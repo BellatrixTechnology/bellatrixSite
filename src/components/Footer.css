@@ -17,7 +17,7 @@
     font-size:18px;
   }
   .follow-us{
-    margin-left: 240px;
+    margin-left: 100px;
     font-size:18px
   }
 
@@ -103,7 +103,7 @@
     }
     .follow-us{
       margin-top: 10px;
-      margin-left: -0px;
+      margin-left: 20px;
       display: flex;
       flex-direction: column;
     }
@@ -151,7 +151,7 @@
     }
     .follow-us{
       margin-top: 10px;
-      margin-left: -0px;
+      margin-left: 0px;
       display: flex;
       flex-direction: column;
     }

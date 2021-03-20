@@ -7,7 +7,31 @@ body {
   SystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+@media screen and (max-width: 768px) {
 
+  .arrows.right{
+    margin-right: 450px;
+  }
+
+  .arrows.left{
+    margin-top: 220px;
+    margin-left:450px;
+  }
+  .quote{
+    margin-right: 170px;
+  }
+  
+  .t-image{
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .arrows.right{
+    margin-top: 200px;
+    margin-right: 450px;
+  }
+ 
+}
 .testimonial-section {
   height: 100vh;
   display: flex;
@@ -41,12 +65,13 @@ body {
       border-radius: 8px;
       transition: 0.3s ease-in-out;
       &:hover {
-        box-shadow: 0px 0px 30px rgba(0, 0, 80, 0.05);
+        box-shadow: 0px 0px 30px rgba(180, 180, 199, 0.05);
       }
       &.right {
         right: 0;
       }
     }
+  
     .inner {
       display: flex;
       justify-content: center;
@@ -88,7 +113,7 @@ body {
         }
       }
       .t-content {
-        width: 500px;
+        width:800px;
         height: 600px;
         display: flex;
         align-items: center;
@@ -156,16 +181,11 @@ body {
                 font-family: fantasy;
               }
              
-@media screen and (max-width: 960px) {
+             
+      
 
-  }
 
-
-@media screen and (max-width: 768px) {
-  
-
-            
-          }
+     
         }
       
       }

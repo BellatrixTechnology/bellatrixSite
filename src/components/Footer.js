@@ -48,7 +48,7 @@ function Footer() {
             <span>
               {" "}
               <img
-              className="image-1"
+              
                 style={{ marginLeft: "60px", height: "35px" }}
                 src="/images/icon1.png"
               ></img>
