@@ -39,7 +39,7 @@ export default function Products() {
            {firstPorfolio.buttonOne}
             </Button>{" "}
           </div>
-      <img className="portfolio-img" src="/images/portfolio.png"></img>
+          <img className="portfolio-img" src= {firstPorfolio.Image}></img>
       </div>
           )
         })
