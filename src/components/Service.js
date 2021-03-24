@@ -9,7 +9,7 @@ import "../components/Service.css";
 export default function CardBodyExample() {
   return (
     <Container>
- <h3 style={{marginRight:"0px",marginTop:"20px"}}>Jenis Layanan</h3>
+ <h3  style={{marginLeft:"0px",marginTop:"20px"}}>Jenis Layanan</h3>
  <p style={{
               
               border: "0.5px solid #ff5367",
@@ -30,7 +30,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#ff5367"}}>Design</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontFamily:"fantasy"}}>
+                <p style={{ color: "#A29E9F", fontFamily: "Arial, Helvetica, sans-serif"}}>
                 Kami menyediakan beberapa jenis deisgnsepeti feed instagram,
                 UIUX, dsb.
               </p>
@@ -47,7 +47,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#E6B921"}}>Development</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
+                <p style={{ color: "#A29E9F",fontFamily: "Arial, Helvetica, sans-serif"}}>
                 Bangun webiste atau aplikasi untuk menunjang bisnis anda bersama kami
               </p>
               </CardBody>
@@ -63,7 +63,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#000"}}>Branding</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
+                <p style={{ color: "#A29E9F",fontFamily: "Arial, Helvetica, sans-serif" }}>
                 Kami akan membantu anda dalam mengelola branding bisnis anda.
               </p>
               </CardBody>
@@ -79,7 +79,7 @@ export default function CardBodyExample() {
                   {" "}
                   <CardTitle style={{color: "#ff5367"}}>Photography</CardTitle>
               
-                <p style={{ color: "#A29E9F",fontFamily:"fantasy" }}>
+                <p style={{ color: "#A29E9F",fontFamily: "Arial, Helvetica, sans-serif"}}>
                 Jika anda memiliki produk fisik, kami akan membantu membuat foto terbaik untuk produk anda
               </p>
               </CardBody>

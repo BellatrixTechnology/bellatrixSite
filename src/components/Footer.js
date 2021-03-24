@@ -22,10 +22,7 @@ function Footer() {
 
       <br />
       <p className="line-styling"></p>
-<img
-                style={{ marginRight: "40px", height: "35px" }}
-                src="/images/sidelogo.png"
-              ></img>
+
               <span><img
                 style={{ marginRight: "40px", height: "35px" }}
                 src="/images/sidelogo.png"
@@ -38,6 +35,7 @@ function Footer() {
         </span>
         <span  className="follow-us" >Follow Us</span>{" "}
       </h3>
+
 
       <p className="p-styling">
         Build your creative ideas into{" "}

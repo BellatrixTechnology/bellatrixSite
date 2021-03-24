@@ -27,10 +27,10 @@ export default function Products() {
              
            
 <h1 className="portfolio-setting">{firstPorfolio.Title}</h1>
-        <p style={{ fontFamily:"fantasy", color: "gray" ,marginLeft:"40px"}}>
+        <p style={{ fontFamily: "Arial, Helvetica, sans-serif", color: "gray" ,marginLeft:"40px"}}>
          {firstPorfolio.description}
         </p>
-          <p style={{ fontFamily:"fantasy", color: "gray" ,marginLeft:"40px"}} >{firstPorfolio.descriptionTwo}</p>
+          <p style={{fontFamily: "Arial, Helvetica, sans-serif", color: "gray" ,marginLeft:"40px"}} >{firstPorfolio.descriptionTwo}</p>
    
       <br />
           <div className="mb-2">
@@ -51,7 +51,7 @@ export default function Products() {
         {/* <img className="edu-img" src="/images/eduimg.png"></img> */}
         <div>
           <h1 className="template-setting" >Education Template</h1>
-          <p style={{ fontFamily:"fantasy", color: "gray" }}>
+          <p style={{fontFamily: "Arial, Helvetica, sans-serif", color: "gray" }}>
             Template ini merupakan project tentang edukasi yang diminta oleh
             klien kami. 
           </p>

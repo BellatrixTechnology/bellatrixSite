@@ -5,11 +5,10 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function RoundImgSec() {
   return (
-    <div>
+    <div >
      
-      <img className="round-img" src="/images/tworoundimg.png"></img>
+      <img className="yellow-img" src="/images/tworoundimg.png"></img>
       {/* <img className="icon-1"src="/images/icon1.png"></img> */}
-
       <h1 className='roundimg-content'>
       Bangun ide-ide kreatif Anda
       </h1>

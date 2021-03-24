@@ -71,8 +71,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  
   .portfolio-color {
-    width: 350px;
+    width: 1200px;
     margin-left: 10px;
     height: 400px;
   }
@@ -82,6 +83,7 @@
   .portfolio-button{
     margin-left: 100px;
   }
+
 .edu-template{
   width: 350px;
   margin-left: 10px;
@@ -97,29 +99,35 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* .edu-image{
+    margin-top: 40px;
+  } */
   .portfolio-color {
-    width: 350px;
-    margin-left: 10px;
+    width: 1200px;
+
+    margin-left: 30px;
     height: 500px;
   }
  
   .portfolio-setting {
-    margin-left: -100px;
+    font-family: "Arial, Helvetica, sans-serif";
+    margin-left: 110px;
+     font-size: 30px;
   }
   .portfolio-button{
-    margin-left: 100px;
+    margin-left: 310px;
   }
   .edu-template{
-    width: 350px;
+    width: 1200px;
     margin-left: 10px;
-    height: 400px;
+    height: 430px;
   }
   .template-setting{
-    margin-left: -100px;
+    margin-left: 150px;
   
-    font-size: 25px;
+    font-size: 30px;
   }
   .edu-button{
-    margin-left: -70px;
+    margin-left: 170px;
   }
 }

@@ -3,9 +3,7 @@ $secondary: #a09da6;
 
 html,
 body {
-  font-family: "Avenir", -apple-system, BlinkMac
-  SystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 768px) {
 
@@ -18,23 +16,52 @@ body {
     margin-left:450px;
   }
   .quote{
-    margin-right: 170px;
+    
+        margin-right: 100px;
   }
   
   .t-image{
-    display: none;
+ 
   }
   .t-content{
-    color: blue;
+    display: block;
+    color:black;
   }
 }
 @media screen and (max-width: 960px) {
   .arrows.right{
-    margin-top: 200px;
-    margin-right: 450px;
+    margin-right: 250px;
+    margin-top: 320px;
+
   }
- 
-}
+
+  .arrows.left{
+    display: flex;
+    margin-top: 320px;
+    margin-left:540px;
+  }
+  .quote{
+     
+        margin-left: 130px;
+  }
+  
+  .t-image{
+ display: none;
+  }
+  .t-content{
+    display: block;
+    color:black;
+  }
+  .title{
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  }
+  .name{
+    margin-top: 30px;
+    margin-left: 230px;
+  }
+
 .testimonial-section {
   height: 100vh;
   display: flex;
@@ -180,7 +207,7 @@ body {
                 line-height: 28px;
                 color: black;
               }.quote{
-                font-family: fantasy;
+                font-family: Arial, Helvetica, sans-serif;
               }
              
              

@@ -1,6 +1,7 @@
 .navbar {
-  background: #f54260;
+  background: #f54260  ;
   height: 80px;
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +41,7 @@ margin-top: 100px;
 
 .bg-color {
   height: 600px;
+  width:100%
 }
 .heading {
   color: white;
@@ -92,6 +94,12 @@ margin-top: 100px;
 }
 
 @media screen and (max-width: 960px) {
+  .bg-color{
+    width: 1000%;
+  }
+  .navbar{
+    width: 100%;
+  }
   .NavbarItems {
     position: relative;
   }
@@ -101,7 +109,7 @@ margin-top: 100px;
     justify-content: end;
     flex-direction: column;
     width: 100px;
-    height: 90vh;
+    height: 40vh;
    position: absolute;
     top: 80px;
     left: -160%;
@@ -169,13 +177,95 @@ margin-top: 100px;
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: "pink";
+    color: "fff";
     transition: 250ms;
   }
   @media only screen and (max-width: 768px) {
+
     /* For mobile phones: */
-    [class*="navbar-container"] {
+  .navbar{
+    width: 1200px;
+  }
+ 
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
       width: 100%;
+      height: 60vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #F1D267;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      color: #f54260;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #fff;
+      color: #fff;
+      border-radius: 0;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background-color: transparent;
+      color: #fff;
+      padding: 14px 20px;
+      border: 1px solid #fff;
+      transition: all 0.3s ease-out;
+    }
+  
+    .nav-links-mobile:hover {
+      background: #fff;
+      color: #fff;
+      transition: 250ms;
     }
   }
 }
